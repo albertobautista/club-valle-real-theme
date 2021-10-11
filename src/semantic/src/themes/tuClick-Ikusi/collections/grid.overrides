@@ -1,0 +1,35 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+/* fullBlack */
+.ui.grid > .fullBlack.row,
+.ui.grid > .black.column,
+.ui.grid > .row > .fullBlack.column {
+  background-color: @fullBlack !important;
+  color: @white;
+}
+
+/* lightBlack */
+.ui.grid > .lightBlack.row,
+.ui.grid > .black.column,
+.ui.grid > .row > .lightBlack.column {
+  background-color: @lightBlack !important;
+  color: @white;
+}
+
+/* lightGrey */
+.ui.grid > .lightGrey.row,
+.ui.grid > .black.column,
+.ui.grid > .row > .lightGrey.column {
+  background-color: @lightGrey !important;
+  color: @white;
+}
+
+/* midWhite */
+.ui.grid > .midWhite.row,
+.ui.grid > .black.column,
+.ui.grid > .row > .midWhite.column {
+  background-color: @midWhite !important;
+  color: @white;
+}

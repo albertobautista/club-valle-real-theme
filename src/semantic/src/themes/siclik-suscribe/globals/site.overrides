@@ -1,0 +1,206 @@
+/*******************************
+        Global Overrides
+*******************************/
+/*--- fullBlack ---*/
+.fullBlackText {
+  color: @fullBlack !important;
+}
+.fullBlackText:hover {
+  color: @fullBlackHover !important;
+}
+
+.fullBlackBackground {
+  background: @fullBlack !important;
+}
+
+/*--- black ---*/
+.blackText {
+  color: @black !important;
+}
+.blackText:hover {
+  color: @blackHover !important;
+}
+
+.blackBackground {
+  background: @black !important;
+}
+
+/*--- lightBlack ---*/
+.lightBlackText {
+  color: @lightBlack !important;
+}
+.lightBlackText:hover {
+  color: @lightBlackHover !important;
+}
+
+.lightBlackBackground {
+  background: @lightBlack !important;
+}
+
+/*--- grey ---*/
+.greyText {
+  color: @grey !important;
+}
+.greyText:hover {
+  color: @greyHover !important;
+}
+
+.greyBackground {
+  background: @grey !important;
+}
+
+/*--- lightGrey ---*/
+.lightGreyText {
+  color: @lightGrey !important;
+}
+.lightGreyText:hover {
+  color: @lightGreyHover !important;
+}
+
+.lightGreyBackground {
+  background: @lightGrey !important;
+}
+
+/*--- midWhite ---*/
+.midWhiteText {
+  color: @midWhite !important;
+}
+.midWhiteText:hover {
+  color: @midWhiteHover !important;
+}
+
+.midWhiteBackground {
+  background: @midWhite !important;
+}
+
+/*--- white ---*/
+.whiteText {
+  color: @white !important;
+}
+.whiteText:hover {
+  color: @whiteHover !important;
+}
+
+.whiteBackground {
+  background: @white !important;
+}
+
+/*--- red ---*/
+.redText {
+  color: @red !important;
+}
+.redText:hover {
+  color: @redHover !important;
+}
+
+.redBackground {
+  background: @red !important;
+}
+
+/*--- orange ---*/
+.orangeText {
+  color: @orange !important;
+}
+.orangeText:hover {
+  color: @orangeHover !important;
+}
+
+.orangeBackground {
+  background: @orange !important;
+}
+
+/*--- yellow ---*/
+.yellowText {
+  color: @yellow !important;
+}
+.yellowText:hover {
+  color: @yellowHover !important;
+}
+
+.yellowBackground {
+  background: @yellow !important;
+}
+
+/*--- green ---*/
+.greenText {
+  color: @green !important;
+}
+.greenText:hover {
+  color: @greenHover !important;
+}
+
+.greenBackground {
+  background: @green !important;
+}
+
+/*--- teal ---*/
+.tealText {
+  color: @teal !important;
+}
+.tealText:hover {
+  color: @tealHover !important;
+}
+
+.tealBackground {
+  background: @teal !important;
+}
+
+/*--- blue ---*/
+.blueText {
+  color: @blue !important;
+}
+.blueText:hover {
+  color: @blueHover !important;
+}
+
+.blueBackground {
+  background: @blue !important;
+}
+
+/*--- violet ---*/
+.violetText {
+  color: @violet !important;
+}
+.violetText:hover {
+  color: @violetHover !important;
+}
+
+.violetBackground {
+  background: @violet !important;
+}
+
+/*--- purple ---*/
+.purpleText {
+  color: @purple !important;
+}
+.purpleText:hover {
+  color: @purpleHover !important;
+}
+
+.purpleBackground {
+  background: @purple !important;
+}
+
+/*--- pink ---*/
+.pinkText {
+  color: @pink !important;
+}
+.pinkText:hover {
+  color: @pinkHover !important;
+}
+
+.pinkBackground {
+  background: @pink !important;
+}
+
+/*--- brown ---*/
+.brownText {
+  color: @brown !important;
+}
+.brownText:hover {
+  color: @brownHover !important;
+}
+
+.brownBackground {
+  background: @brown !important;
+}

@@ -1,0 +1,16 @@
+.ui.basic.table th {
+  font-family: @headerFont;
+}
+
+.ui[class*="very basic"].table:not(.sortable) th {
+  border-top: @border;
+}
+
+// .ui.basic.striped.selectable.table tbody tr:nth-child(2n):hover {
+//   background-color: @lightGrey !important;
+// }
+
+// .ui.selectable.table tr:hover td.active, .ui.table td.active, .ui.table tr.active {
+//   background: @grey !important;
+//   color: @lightGrey !important;
+// }

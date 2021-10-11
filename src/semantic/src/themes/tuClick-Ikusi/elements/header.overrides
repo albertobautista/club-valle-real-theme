@@ -1,0 +1,69 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+/*--- fullBlack ---*/
+.ui.fullBlack.header {
+  color: @fullBlack !important;
+}
+a.ui.fullBlack.header:hover {
+  color: @fullBlackHover !important;
+}
+.ui.fullBlack.dividing.header {
+  border-bottom: @dividedColoredBorderWidth solid @fullBlack;
+}
+
+/*--- black ---*/
+.ui.black.header {
+  color: @black !important;
+}
+a.ui.black.header:hover {
+  color: @blackHover !important;
+}
+.ui.black.dividing.header {
+  border-bottom: @dividedColoredBorderWidth solid @black;
+}
+
+/*--- lightBlack ---*/
+.ui.lightBlack.header {
+  color: @lightBlack !important;
+}
+a.ui.lightBlack.header:hover {
+  color: @lightBlackHover !important;
+}
+.ui.lightBlack.dividing.header {
+  border-bottom: @dividedColoredBorderWidth solid @lightBlack;
+}
+
+/*--- lightGrey ---*/
+.ui.lightGrey.header {
+  color: @lightGrey !important;
+}
+a.ui.lightGrey.header:hover {
+  color: @lightGreyHover !important;
+}
+.ui.lightGrey.dividing.header {
+  border-bottom: @dividedColoredBorderWidth solid @lightGrey;
+}
+
+/*--- midWhite ---*/
+.ui.midWhite.header {
+  color: @midWhite !important;
+}
+a.ui.midWhite.header:hover {
+  color: @midWhiteHover !important;
+}
+.ui.midWhite.dividing.header {
+  border-bottom: @dividedColoredBorderWidth solid @midWhite;
+}
+
+/*--- white ---*/
+.ui.white.header {
+  color: @white !important;
+}
+a.ui.white.header:hover {
+  color: @whiteHover !important;
+}
+.ui.white.dividing.header {
+  border-bottom: @dividedColoredBorderWidth solid @white;
+}

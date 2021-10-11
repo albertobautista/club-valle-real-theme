@@ -1,0 +1,357 @@
+/*******************************
+         Theme Overrides
+*******************************/
+/*--- fullBlack ---*/
+.ui.fullBlack.buttons .button,
+.ui.fullBlack.button {
+  background-color: @fullBlack;
+  color: @fullBlackTextColor;
+  text-shadow: @fullBlackTextShadow;
+  background-image: @coloredBackgroundImage;
+}
+.ui.fullBlack.button {
+  box-shadow: @coloredBoxShadow;
+}
+.ui.fullBlack.buttons .button:hover,
+.ui.fullBlack.button:hover {
+  background-color: @fullBlackHover;
+  color: @fullBlackTextColor;
+  text-shadow: @fullBlackTextShadow;
+}
+.ui.fullBlack.buttons .button:focus,
+.ui.fullBlack.button:focus {
+  background-color: @fullBlackFocus;
+  color: @fullBlackTextColor;
+  text-shadow: @fullBlackTextShadow;
+}
+.ui.fullBlack.buttons .button:active,
+.ui.fullBlack.button:active {
+  background-color: @fullBlackDown;
+  color: @fullBlackTextColor;
+  text-shadow: @fullBlackTextShadow;
+}
+.ui.fullBlack.buttons .active.button,
+.ui.fullBlack.buttons .active.button:active,
+.ui.fullBlack.active.button,
+.ui.fullBlack.button .active.button:active {
+  background-color: @fullBlackActive;
+  color: @fullBlackTextColor;
+  text-shadow: @fullBlackTextShadow;
+}
+
+/* Basic */
+.ui.basic.fullBlack.buttons .button,
+.ui.basic.fullBlack.button {
+  box-shadow: 0px 0px 0px @basicBorderSize @fullBlack inset !important;
+  color: @fullBlack !important;
+}
+.ui.basic.fullBlack.buttons .button:hover,
+.ui.basic.fullBlack.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @fullBlackHover inset !important;
+  color: @fullBlackHover !important;
+}
+.ui.basic.fullBlack.buttons .button:focus,
+.ui.basic.fullBlack.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @fullBlackFocus inset !important;
+  color: @fullBlackHover !important;
+}
+.ui.basic.fullBlack.buttons .active.button,
+.ui.basic.fullBlack.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @fullBlackActive inset !important;
+  color: @fullBlackDown !important;
+}
+.ui.basic.fullBlack.buttons .button:active,
+.ui.basic.fullBlack.button:active {
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @fullBlackDown inset !important;
+  color: @fullBlackDown !important;
+}
+.ui.buttons:not(.vertical) > .basic.fullBlack.button:not(:first-child) {
+  margin-left: -@basicColoredBorderSize;
+}
+
+/*--- lightBlack ---*/
+.ui.lightBlack.buttons .button,
+.ui.lightBlack.button {
+  background-color: @lightBlack;
+  color: @lightBlackTextColor;
+  text-shadow: @lightBlackTextShadow;
+  background-image: @coloredBackgroundImage;
+}
+.ui.lightBlack.button {
+  box-shadow: @coloredBoxShadow;
+}
+.ui.lightBlack.buttons .button:hover,
+.ui.lightBlack.button:hover {
+  background-color: @lightBlackHover;
+  color: @lightBlackTextColor;
+  text-shadow: @lightBlackTextShadow;
+}
+.ui.lightBlack.buttons .button:focus,
+.ui.lightBlack.button:focus {
+  background-color: @lightBlackFocus;
+  color: @lightBlackTextColor;
+  text-shadow: @lightBlackTextShadow;
+}
+.ui.lightBlack.buttons .button:active,
+.ui.lightBlack.button:active {
+  background-color: @lightBlackDown;
+  color: @lightBlackTextColor;
+  text-shadow: @lightBlackTextShadow;
+}
+.ui.lightBlack.buttons .active.button,
+.ui.lightBlack.buttons .active.button:active,
+.ui.lightBlack.active.button,
+.ui.lightBlack.button .active.button:active {
+  background-color: @lightBlackActive;
+  color: @lightBlackTextColor;
+  text-shadow: @lightBlackTextShadow;
+}
+
+/* Basic */
+.ui.basic.lightBlack.buttons .button,
+.ui.basic.lightBlack.button {
+  box-shadow: 0px 0px 0px @basicBorderSize @lightBlack inset !important;
+  color: @lightBlack !important;
+}
+.ui.basic.lightBlack.buttons .button:hover,
+.ui.basic.lightBlack.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @lightBlackHover inset !important;
+  color: @lightBlackHover !important;
+}
+.ui.basic.lightBlack.buttons .button:focus,
+.ui.basic.lightBlack.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @lightBlackFocus inset !important;
+  color: @lightBlackHover !important;
+}
+.ui.basic.lightBlack.buttons .active.button,
+.ui.basic.lightBlack.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @lightBlackActive inset !important;
+  color: @lightBlackDown !important;
+}
+.ui.basic.lightBlack.buttons .button:active,
+.ui.basic.lightBlack.button:active {
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @lightBlackDown inset !important;
+  color: @lightBlackDown !important;
+}
+.ui.buttons:not(.vertical) > .basic.lightBlack.button:not(:first-child) {
+  margin-left: -@basicColoredBorderSize;
+}
+
+/*--- lightGrey ---*/
+.ui.lightGrey.buttons .button,
+.ui.lightGrey.button {
+  background-color: @lightGrey;
+  color: @lightGreyTextColor;
+  text-shadow: @lightGreyTextShadow;
+  background-image: @coloredBackgroundImage;
+}
+.ui.lightGrey.button {
+  box-shadow: @coloredBoxShadow;
+}
+.ui.lightGrey.buttons .button:hover,
+.ui.lightGrey.button:hover {
+  background-color: @lightGreyHover;
+  color: @lightGreyTextColor;
+  text-shadow: @lightGreyTextShadow;
+}
+.ui.lightGrey.buttons .button:focus,
+.ui.lightGrey.button:focus {
+  background-color: @lightGreyFocus;
+  color: @lightGreyTextColor;
+  text-shadow: @lightGreyTextShadow;
+}
+.ui.lightGrey.buttons .button:active,
+.ui.lightGrey.button:active {
+  background-color: @lightGreyDown;
+  color: @lightGreyTextColor;
+  text-shadow: @lightGreyTextShadow;
+}
+.ui.lightGrey.buttons .active.button,
+.ui.lightGrey.buttons .active.button:active,
+.ui.lightGrey.active.button,
+.ui.lightGrey.button .active.button:active {
+  background-color: @lightGreyActive;
+  color: @lightGreyTextColor;
+  text-shadow: @lightGreyTextShadow;
+}
+
+/* Basic */
+.ui.basic.lightGrey.buttons .button,
+.ui.basic.lightGrey.button {
+  box-shadow: 0px 0px 0px @basicBorderSize @lightGrey inset !important;
+  color: @lightGrey !important;
+}
+.ui.basic.lightGrey.buttons .button:hover,
+.ui.basic.lightGrey.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @lightGreyHover inset !important;
+  color: @lightGreyHover !important;
+}
+.ui.basic.lightGrey.buttons .button:focus,
+.ui.basic.lightGrey.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @lightGreyFocus inset !important;
+  color: @lightGreyHover !important;
+}
+.ui.basic.lightGrey.buttons .active.button,
+.ui.basic.lightGrey.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @lightGreyActive inset !important;
+  color: @lightGreyDown !important;
+}
+.ui.basic.lightGrey.buttons .button:active,
+.ui.basic.lightGrey.button:active {
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @lightGreyDown inset !important;
+  color: @lightGreyDown !important;
+}
+.ui.buttons:not(.vertical) > .basic.lightGrey.button:not(:first-child) {
+  margin-left: -@basicColoredBorderSize;
+}
+
+/*--- midWhite ---*/
+.ui.midWhite.buttons .button,
+.ui.midWhite.button {
+  background-color: @midWhite;
+  color: @midWhiteTextColor;
+  text-shadow: @midWhiteTextShadow;
+  background-image: @coloredBackgroundImage;
+}
+.ui.midWhite.button {
+  box-shadow: @coloredBoxShadow;
+}
+.ui.midWhite.buttons .button:hover,
+.ui.midWhite.button:hover {
+  background-color: @midWhiteHover;
+  color: @midWhiteTextColor;
+  text-shadow: @midWhiteTextShadow;
+}
+.ui.midWhite.buttons .button:focus,
+.ui.midWhite.button:focus {
+  background-color: @midWhiteFocus;
+  color: @midWhiteTextColor;
+  text-shadow: @midWhiteTextShadow;
+}
+.ui.midWhite.buttons .button:active,
+.ui.midWhite.button:active {
+  background-color: @midWhiteDown;
+  color: @midWhiteTextColor;
+  text-shadow: @midWhiteTextShadow;
+}
+.ui.midWhite.buttons .active.button,
+.ui.midWhite.buttons .active.button:active,
+.ui.midWhite.active.button,
+.ui.midWhite.button .active.button:active {
+  background-color: @midWhiteActive;
+  color: @midWhiteTextColor;
+  text-shadow: @midWhiteTextShadow;
+}
+
+/* Basic */
+.ui.basic.midWhite.buttons .button,
+.ui.basic.midWhite.button {
+  box-shadow: 0px 0px 0px @basicBorderSize @midWhite inset !important;
+  color: @midWhite !important;
+}
+.ui.basic.midWhite.buttons .button:hover,
+.ui.basic.midWhite.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @midWhiteHover inset !important;
+  color: @midWhiteHover !important;
+}
+.ui.basic.midWhite.buttons .button:focus,
+.ui.basic.midWhite.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @midWhiteFocus inset !important;
+  color: @midWhiteHover !important;
+}
+.ui.basic.midWhite.buttons .active.button,
+.ui.basic.midWhite.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @midWhiteActive inset !important;
+  color: @midWhiteDown !important;
+}
+.ui.basic.midWhite.buttons .button:active,
+.ui.basic.midWhite.button:active {
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @midWhiteDown inset !important;
+  color: @midWhiteDown !important;
+}
+.ui.buttons:not(.vertical) > .basic.midWhite.button:not(:first-child) {
+  margin-left: -@basicColoredBorderSize;
+}
+
+/*--- white ---*/
+.ui.white.buttons .button,
+.ui.white.button {
+  background-color: @white;
+  color: @whiteTextColor;
+  text-shadow: @whiteTextShadow;
+  background-image: @coloredBackgroundImage;
+}
+.ui.white.button {
+  box-shadow: @coloredBoxShadow;
+}
+.ui.white.buttons .button:hover,
+.ui.white.button:hover {
+  background-color: @whiteHover;
+  color: @whiteTextColor;
+  text-shadow: @whiteTextShadow;
+}
+.ui.white.buttons .button:focus,
+.ui.white.button:focus {
+  background-color: @whiteFocus;
+  color: @whiteTextColor;
+  text-shadow: @whiteTextShadow;
+}
+.ui.white.buttons .button:active,
+.ui.white.button:active {
+  background-color: @whiteDown;
+  color: @whiteTextColor;
+  text-shadow: @whiteTextShadow;
+}
+.ui.white.buttons .active.button,
+.ui.white.buttons .active.button:active,
+.ui.white.active.button,
+.ui.white.button .active.button:active {
+  background-color: @whiteActive;
+  color: @whiteTextColor;
+  text-shadow: @whiteTextShadow;
+}
+
+/* Basic */
+.ui.basic.white.buttons .button,
+.ui.basic.white.button {
+  box-shadow: 0px 0px 0px @basicBorderSize @white inset !important;
+  color: @white !important;
+}
+.ui.basic.white.buttons .button:hover,
+.ui.basic.white.button:hover {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @whiteHover inset !important;
+  color: @whiteHover !important;
+}
+.ui.basic.white.buttons .button:focus,
+.ui.basic.white.button:focus {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @whiteFocus inset !important;
+  color: @whiteHover !important;
+}
+.ui.basic.white.buttons .active.button,
+.ui.basic.white.active.button {
+  background: transparent !important;
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @whiteActive inset !important;
+  color: @whiteDown !important;
+}
+.ui.basic.white.buttons .button:active,
+.ui.basic.white.button:active {
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @whiteDown inset !important;
+  color: @whiteDown !important;
+}
+.ui.buttons:not(.vertical) > .basic.white.button:not(:first-child) {
+  margin-left: -@basicColoredBorderSize;
+}

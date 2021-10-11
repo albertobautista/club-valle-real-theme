@@ -1,0 +1,8 @@
+.menu-bar-commerce2{
+    background: #168f00 ;/* Old browsers */
+    background: -moz-linear-gradient(left, #168f00 0%,  #25d700 100%, #4cdc35 100%, #4cdc35 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #25d700 0%,#4cdc35 100%,#4cdc35 100%,#4cdc35 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #168f00 0%,#25d700 100%,#4cdc35 100%,#4cdc35 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00468b', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+    }
+    
